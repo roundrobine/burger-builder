@@ -33,3 +33,5 @@ yarn-error.log*
 \.idea/workspace\.xml
 
 config/\.vscode/launch\.json
+
+package-lock\.json
