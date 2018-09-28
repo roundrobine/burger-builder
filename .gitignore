@@ -19,3 +19,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+\.idea/burger-builder\.iml
+
+\.idea/inspectionProfiles/Project_Default\.xml
+
+\.idea/misc\.xml
+
+\.idea/modules\.xml
+
+\.idea/vcs\.xml
+
+\.idea/workspace\.xml
+
+config/\.vscode/launch\.json
