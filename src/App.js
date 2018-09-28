@@ -1,10 +1,17 @@
 import React, { Component } from "react";
+import Layout from "./components/Layout";
 
 class App extends Component {
   render() {
     console.log("My name is dimitat");
 
-    return <div />;
+    return (
+      <div>
+        <Layout>
+          <p>Test</p>
+        </Layout>
+      </div>
+    );
   }
 }
 
