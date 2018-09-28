@@ -9,24 +9,25 @@ const BurgerIngredient = props => {
     case "bread-bottom":
       ingredint = <div className={classes.BreadBottom} />;
       break;
-    case "bread-bottom":
+    case "bread-top":
       ingredint = (
-        <div className={classes.Top}>
+        <div className={classes.BreadTop}>
           <div className={classes.Seeds1} />
           <div className={classes.Seeds2} />
         </div>
       );
+      break;
     case "meat":
       ingredint = <div className={classes.Meat} />;
       break;
     case "bacon":
-      ingredint = <div className={classes.Meat} />;
+      ingredint = <div className={classes.Bakon} />;
       break;
-    case "cheese":
-      ingredint = <div className={classes.Meat} />;
+    case "chesse":
+      ingredint = <div className={classes.Cheese} />;
       break;
     case "salad":
-      ingredint = <div className={classes.Meat} />;
+      ingredint = <div className={classes.Salad} />;
       break;
     default:
       ingredint = null;
@@ -34,8 +35,8 @@ const BurgerIngredient = props => {
   return ingredint;
 };
 
-BurgerIngredient.PropTypes = {
-    type: PropTypes.string.isRequired;
-}
+BurgerIngredient.propTypes = {
+  type: PropTypes.string.isRequired
+};
 
 export default BurgerIngredient;
