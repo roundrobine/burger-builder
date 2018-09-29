@@ -6,7 +6,7 @@ const controls = [
   { label: "Salad", type: "salad" },
   { label: "Cheese", type: "cheese" },
   { label: "Meat", type: "meat" },
-  { label: "Bacon", type: "bakon" }
+  { label: "Bacon", type: "bacon" }
 ];
 
 const buildContols = props => {
@@ -17,7 +17,7 @@ const buildContols = props => {
           <BuildControl
             key={control.label}
             label={control.label}
-            type={control.type}
+            added={() => props.ingredientAdded(control.type)}
           />
         );
       })}
