@@ -16,6 +16,8 @@ const orderSummary = props => {
       <p>A delicious burger with the following ingredients:</p>
       <ul>{ingrediantsSummary}</ul>
       <p>Continue to Checkout?</p>
+      <button>Cancel</button>
+      <button>Continue</button>
     </Aux>
   );
 };
