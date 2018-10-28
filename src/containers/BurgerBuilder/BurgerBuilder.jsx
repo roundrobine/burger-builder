@@ -27,7 +27,7 @@ class BurgerBullder extends Component {
 
   componentDidMount() {
     axios
-      .get("https://react-my-burger-ba4df.firebaseio.com/ingredients.json")
+      .get("/ingredients.json")
       .then(response => {
         this.setState({ ingredients: response.data });
       })
